@@ -1,13 +1,25 @@
-body {
+body, html {
   margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(slike/dayspapatern.svg);
+  background-repeat: repeat;
+  background-size: 400px;
+}
+#root {
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.7) 16%, rgba(0,0,0,0.38) 50%, rgba(0,0,0,0.7) 84%, rgba(0,0,0,0.8) 100%);
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.7) 16%,rgba(0,0,0,0.38) 50%,rgba(0,0,0,0.7) 84%,rgba(0,0,0,0.8) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.7) 16%,rgba(0,0,0,0.38) 50%,rgba(0,0,0,0.7) 84%,rgba(0,0,0,0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
